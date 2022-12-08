@@ -12,7 +12,8 @@ def bigger_integer(num1, num2, num3):
 
     return max_int
 
-"""2.A program that will swap between 2 numbers, 
+"""2.
+A program that will swap between 2 numbers, 
 without a third number.
 """
 
