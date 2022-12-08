@@ -12,3 +12,14 @@ def bigger_integer(num1, num2, num3):
 
     return max_int
 
+"""2.A program that will swap between 2 numbers, 
+without a third number.
+"""
+
+
+def swap_numbers(num1, num2):
+    num1 = num1 + num2
+    num2 = num1 - num2
+    num1 = num1 - num2
+    return f"num1 new value is {num1}, num2 new value is {num2}."
+
