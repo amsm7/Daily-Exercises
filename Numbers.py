@@ -43,24 +43,32 @@ Write a program that receives a number and determines
 import  math
 def check_if_prime(num):
     if num < 2:
-        print("Smaller than 2.")
-        print("Not prime.")
         return False
     elif (num % 2 == 0) and (num != 2):
-        print("Even number that isn't equal to 2.")
-        print("Not prime.")
         return False
     elif 2 <= num <= 3:
-        print("2 or 3.")
-        print("Prime!")
         return True
     else:
         num_sqrt = math.floor(math.sqrt(num))
         for val in range(3, num_sqrt + 1, 2):
             if num % val == 0:
-                print("Not prime.")
                 return False
-
-        print("Prime !")
         return True
-        
+---------------------------------------------------
+"""5.
+Write a program that will reverse the order of a given integer.
+ """
+
+def reverse_int(num):
+    check_num = num
+    num_len = 0
+    reversed_num = 0
+    while check_num != 0:
+        num_len += 1
+        check_num = check_num // 10
+    while num != 0:
+        reversed_num += (num % 10) * (10 ** (num_len - 1))
+        num = num // 10
+        num_len -= 1
+    return reversed_num
+ ---------------------------------------------------  
