@@ -76,8 +76,9 @@ def reverse_int(num):
     return reversed_num
 
  ---------------------------------------------------  
-#6.Write a program that will check if a given number is palindorm or not.
-
+"""6.
+Write a program that will check if a given number is palindorm or not.
+ """
 def reverse_int(num):
     pal_num = num
     check_num = num
