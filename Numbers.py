@@ -79,6 +79,7 @@ def reverse_int(num):
 """6.
 Write a program that will check if a given number is palindorm or not.
  """
+
 def reverse_int(num):
     pal_num = num
     check_num = num
@@ -94,4 +95,21 @@ def reverse_int(num):
     return pal_num == reversed_num
 
  ---------------------------------------------------  
-#7.
+"""7.Write a program that will check if a given number is armstrong number or not.
+Armstrong number is number which is equal to the sum of his digits raised to the power of three.
+For example: 371 , 153.  153 : 1^3 = 1, 5^3 = 125, 3^3 = 27. 1+125+27 = 153
+"""
+
+def check_if_arm(num):
+    check_arm = 0
+    check_num = num
+
+    while num != 0:
+        check_arm += (num % 10) ** 3
+        num = num // 10
+
+    return check_num == check_arm
+
+ ---------------------------------------------------  
+"""8.
+"""
