@@ -128,4 +128,16 @@ def check_fib(num):
             val_1 = val_2
             val_2 = total
         print(total)
+        
+---------------------------------------------------  
+"""9.
+Write a program that checks if a given number is binary or not.
+"""
+
+def check_if_binary(num):
+    while num != 1:
+        if (num % 10 != 1) and (num % 10 != 0):
+            return False
+        num = num // 10
+    return True 
 
