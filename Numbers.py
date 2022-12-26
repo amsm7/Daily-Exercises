@@ -94,7 +94,8 @@ def reverse_int(num):
     return pal_num == reversed_num
 
  ---------------------------------------------------  
-"""7.Write a program that will check if a given number is armstrong number or not.
+"""7.
+Write a program that will check if a given number is armstrong number or not.
 Armstrong number is number which is equal to the sum of his digits raised to the power of three.
 For example: 371 , 153.  153 : 1^3 = 1, 5^3 = 125, 3^3 = 27. 1+125+27 = 153
 """
@@ -111,4 +112,20 @@ def check_if_arm(num):
 
  ---------------------------------------------------  
 """8.
+Write a program that prints a fibonacci series according a given length number.
 """
+
+def check_fib(num):
+    val_1 = 0
+    val_2 = 1
+    total = 0
+
+    for i in range(0, num):
+        if i <=1:
+            total = i
+        else:
+            total = val_1 + val_2
+            val_1 = val_2
+            val_2 = total
+        print(total)
+
