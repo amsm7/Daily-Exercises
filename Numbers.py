@@ -51,8 +51,7 @@ def check_if_prime(num):
     elif 2 <= num <= 3:
         return True
     else:
-        num_sqrt = math.floor(math.sqrt(num))
-        for val in range(3, num_sqrt + 1, 2):
+        for val in range(3, (num + 1)//2, 2):
             if num % val == 0:
                 return False
         return True
