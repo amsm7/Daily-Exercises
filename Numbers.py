@@ -135,7 +135,7 @@ Write a program that checks if a given number is binary or not.
 """
 
 def check_if_binary(num):
-    while num != 1:
+    while not(1 >= num >= 0):
         if (num % 10 != 1) and (num % 10 != 0):
             return False
         num = num // 10
