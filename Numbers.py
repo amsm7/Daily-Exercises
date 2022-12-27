@@ -164,10 +164,20 @@ def perfect_number(num):
 Write a program that finds the average of given numbers.
 """
 
-#option 1:
 def calc_avg(*args):
     total = sum([val for val in args])
     print(total)
     print(len(args))d
     return total / len(args)
+
+---------------------------------------------------  
+"""12.
+Write a program that calculates the factorial of a given number.
+"""
+
+def factorial(num):
+    total = 1
+    for val in range(1, num+1):
+        total *= val
+    return total
 
