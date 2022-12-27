@@ -12,7 +12,7 @@ def bigger_number(num1, num2, num3):
     return max_int
 
 ---------------------------------------------------
-"""2.
+""" 2.
 A program that will swap between 2 numbers, 
 without a third number.
 """
@@ -24,7 +24,7 @@ def swap_numbers(num1, num2):
     return f"num1 new value is {num1} and num2 new value is {num2}."
 
 ---------------------------------------------------
-"""3.
+""" 3.
 A program that will swap between 2 numbers, 
 with a third number.
 """
@@ -37,7 +37,7 @@ def swap_numbers2(num1, num2):
     return f"num1 new value is {num1} and num2 new value is {num2}."
 
 ---------------------------------------------------
-"""4.
+""" 4.
 Write a program that receives a number and determines
  whether it is a prime number or not.
  """
@@ -57,7 +57,7 @@ def check_if_prime(num):
         return True
     
 ---------------------------------------------------
-"""5.
+""" 5.
 Write a program that will reverse the order of a given integer.
  """
 
@@ -75,7 +75,7 @@ def reverse_int(num):
     return reversed_num
 
  ---------------------------------------------------  
-"""6.
+""" 6.
 Write a program that will check if a given number is palindorm or not.
  """
 
@@ -94,7 +94,7 @@ def reverse_int(num):
     return pal_num == reversed_num
 
  ---------------------------------------------------  
-"""7.
+""" 7.
 Write a program that will check if a given number is armstrong number or not.
 Armstrong number is number which is equal to the sum of his digits raised to the power of three.
 For example: 371 , 153.  153 : 1^3 = 1, 5^3 = 125, 3^3 = 27. 1+125+27 = 153
@@ -111,7 +111,7 @@ def check_if_arm(num):
     return check_num == check_arm
 
  ---------------------------------------------------  
-"""8.
+""" 8.
 Write a program that prints a fibonacci series according a given length number.
 """
 
@@ -130,7 +130,7 @@ def check_fib(num):
         print(total)
         
 ---------------------------------------------------  
-"""9.
+""" 9.
 Write a program that checks if a given number is binary or not.
 """
 
@@ -142,7 +142,7 @@ def check_if_binary(num):
     return True 
 
 ---------------------------------------------------  
-"""10.
+""" 10.
 Write a program that checks if a given number is perfect or not.
 
 * Perfect number is a number that equals to the sum of all of it's factors.
@@ -160,7 +160,7 @@ def perfect_number(num):
     return total == num
 
 ---------------------------------------------------  
-"""11.
+""" 11.
 Write a program that finds the average of given numbers.
 """
 
@@ -171,7 +171,7 @@ def calc_avg(*args):
     return total / len(args)
 
 ---------------------------------------------------  
-"""12.
+""" 12.
 Write a program that calculates the factorial of a given number.
 """
 
