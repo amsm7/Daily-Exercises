@@ -153,7 +153,7 @@ def perfect_number(num):
     total = 0
     if num < 0:
         return False
-    for val in range(1, (num + 1 // 2)):
+    for val in range(1, ((num + 2) // 2)):
         if num % val == 0:
             total += val
 
