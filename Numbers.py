@@ -141,3 +141,25 @@ def check_if_binary(num):
         num = num // 10
     return True 
 
+---------------------------------------------------  
+"""10.
+Write a program that checks if a given number is perfect or not.
+
+* Perfect number is a number that equals to the sum of all of it's factors.
+  The number and it's factors should be all positive numbers.
+"""
+
+def perfect_number(num):
+    total = 0
+    if num < 0:
+        return False
+    for val in range(1, (num + 1 // 2)):
+        if num % val == 0:
+            total += val
+
+    return total == num
+
+---------------------------------------------------  
+"""11.
+
+"""
