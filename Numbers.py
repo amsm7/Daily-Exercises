@@ -161,5 +161,13 @@ def perfect_number(num):
 
 ---------------------------------------------------  
 """11.
-
+Write a program that finds the average of given numbers.
 """
+
+#option 1:
+def calc_avg(*args):
+    total = sum([val for val in args])
+    print(total)
+    print(len(args))d
+    return total / len(args)
+
