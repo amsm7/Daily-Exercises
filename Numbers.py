@@ -193,5 +193,19 @@ def even_or_odd(num):
 
 ---------------------------------------------------  
 """ 14.
+write a program that finds the smallest number among three.
+"""
+
+def smallest_num(n1, n2, n3):
+    smallest = n1
+    if n2 <= smallest:
+        smallest = n2
+    if n3 <= smallest:
+        smallest = n3
+    return smallest
+
+---------------------------------------------------  
+""" 15.
 
 """
+
