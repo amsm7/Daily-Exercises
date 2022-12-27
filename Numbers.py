@@ -181,3 +181,17 @@ def factorial(num):
         total *= val
     return total
 
+---------------------------------------------------  
+""" 13.
+Write a program that checks if a given number is even or odd.
+"""
+
+def even_or_odd(num):
+    if num % 2 == 0:
+        return True
+    return False
+
+---------------------------------------------------  
+""" 14.
+
+"""
