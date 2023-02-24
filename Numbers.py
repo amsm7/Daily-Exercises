@@ -59,17 +59,13 @@ Write a program that will reverse the order of a given integer.
  """
 
 def reverse_int(num):
-    check_num = num
-    num_len = 0
-    reversed_num = 0
-    while check_num != 0:
-        num_len += 1
-        check_num = check_num // 10
+    rev_num = 0
     while num != 0:
-        reversed_num += (num % 10) * (10 ** (num_len - 1))
+        last_digit = num % 10
+        rev_num = rev_num * 10
+        rev_num = rev_num + last_digit
         num = num // 10
-        num_len -= 1
-    return reversed_num
+    return rev_num
 
  ---------------------------------------------------  
 """ 6.
