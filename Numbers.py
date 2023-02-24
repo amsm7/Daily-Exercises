@@ -42,14 +42,11 @@ Write a program that receives a number and determines
  whether it is a prime number or not.
  """
 
-import  math
 def check_if_prime(num):
     if num < 2:
         return False
     elif (num % 2 == 0) and (num != 2):
         return False
-    elif 2 <= num <= 3:
-        return True
     else:
         for val in range(3, (num + 1)//2, 2):
             if num % val == 0:
